@@ -1,0 +1,166 @@
+body {
+  margin: 10px;
+}
+
+/*------------Header and Nav------------------*/
+.header {
+  position: relative;
+  height: 80px;
+}
+.nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+a {
+  color: #555555;
+}
+
+a:hover {
+  color: #E56038;
+}
+
+span a {
+  color: burlywood;
+}
+
+.nav ul li {
+  display: block;
+  float: left;
+  padding: 3px 15px;
+}
+.nav ul li a {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  transition: all .25s ease;
+  cursor: pointer;
+  text-decoration: underline;
+  color: grey;
+}
+.nav ul li a:hover {
+  color: #E56038;
+}
+
+/*------------------Registration Form----------------*/
+form {border: 3px solid #f1f1f1;}
+.maincontainer {
+  text-align: left;
+  background-color:#f1f1f1;
+  position: relative;
+}
+.container {
+  padding: 16px;
+}
+
+.generalInput {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  position: relative;
+  left: 25px;
+}
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+.cancelbtn {
+  width: 10%;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #f44336;
+}
+.buybtn {
+  width: 30%;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+.disablebutton {
+  width: 30%;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  background-color: #555555;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+.errormsg {
+  color: red;
+}
+.maincontainer span {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+.paging {
+  float: right;
+  width: 150px;
+  margin: 10px 260px 0 0;
+  border: 1px solid #ccc;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 15%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+  width: 70%;
+  height: 70%;
+}
+.searchclosebutton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5%;
+  border: none;
+  background-color: #555555;
+}
+.searchbtn {
+  width: 15%;
+  padding: 14px 10px;
+  margin: 8px 8px 8px 575px;
+  border: none;
+  cursor: pointer;
+  background-color: #4CAF50;
+}
+
+span#username {
+  text-transform: capitalize;
+}
+
+table thead {
+  background-color: #E7F0F7;
+}
